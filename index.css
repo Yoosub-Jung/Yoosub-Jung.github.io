@@ -1,0 +1,37 @@
+body {background-color : linen; color : black;}
+h3 {text-align : center; color : black;}
+span {background-color : skyblue;}
+ol {counter-reset: item;
+    padding-left: 10px;}
+li {display: block}
+LI:before { content: counters(item, ".") " "; counter-increment: item }
+table {
+    border : 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead th{
+    background:rosybrown;
+    height : 25px;
+    text-align : center;
+}
+td, th {
+    border : 1px solid black;
+    height: 20px;
+    padding: 10px;
+}
+tbody tr:nth-child(even) {
+    background : rgb(211, 185, 185);
+}
+tbody tr:hover {
+    background: pink;
+}
+#cen_img {
+    display: block;
+    margin: auto;
+    background: linen;
+}
+#name_img {
+    text-align : center;
+    background: linen;
+}

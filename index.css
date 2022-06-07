@@ -1,5 +1,7 @@
-body {background-color : linen; color : black;}
-h3 {text-align : center; color : black;}
+body {background-color : linen; color : black; 
+    max-width : 100%; width : 1200px; margin-left : auto; margin-right : auto;
+}
+h3 {text-align : center; color : black; font-size : 60px; font-family : georgia;}
 span {background-color : skyblue;}
 ol {counter-reset: item;
     padding-left: 10px;}
@@ -11,14 +13,17 @@ table {
     width: 100%;
 }
 thead th{
-    background:rosybrown;
+    background:darkslateblue;
     height : 25px;
     text-align : center;
+    color: white;
+    font-size : 28px; font-family : "Times New Roman";
 }
 td, th {
     border : 1px solid black;
     height: 20px;
     padding: 10px;
+    font-size : 20px;
 }
 tbody tr:nth-child(even) {
     background : rgb(211, 185, 185);
@@ -34,4 +39,19 @@ tbody tr:hover {
 #name_img {
     text-align : center;
     background: linen;
+}
+#font1 {
+    text-align : center; font-size : 40px; font-family : georgia;
+}
+#font2 {
+    font-size : 30px; font-family : "Lucida Console";
+}
+#font3 {
+    font-size : 28px; font-family : Arial; line-height: 150%;
+}
+#font4 {
+    font-size : 25px; font-family : Arial; line-height: 150%;
+}
+#font5 {
+    font-size : 20px; font-family : Arial; line-height: 150%;
 }
